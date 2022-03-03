@@ -3,7 +3,7 @@ import React, { useState } from "react";
 /**
  * props: addBox -- function that lives in BoxList, takes formData
  * 
- * state: none
+ * state: formData
  * 
  * hierarchy:
  * BoxList -> NewBoxForm

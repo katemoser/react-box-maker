@@ -9,11 +9,11 @@
  * 
  * BoxList -> Box
  */
-function Box({ backgroundColor, width, height }){
+function Box({ color, width, height }){
     const boxStyle = {
         width: `${width}px`,
         height: `${height}px`,
-        backgroundColor: backgroundColor,
+        backgroundColor: color,
     }
 
     return (
