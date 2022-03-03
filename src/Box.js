@@ -9,17 +9,22 @@
  * 
  * BoxList -> Box
  */
-function Box({ color, width, height }){
+function Box({ color, width, height, deleteBox }){
     const boxStyle = {
         width: `${width}px`,
         height: `${height}px`,
         backgroundColor: color,
     }
 
-    return (
-        <div className="BoxMaker-Box" style={boxStyle}>
 
+
+    return (
+        <div>
+            <div className="BoxMaker-Box" style={boxStyle}>
+            </div>
+            <button onClick={deleteBox}>Delete this Box</button>
         </div>
+        
     )
 
 }
